@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Sneakers17 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+E-commerce de Sneakers realizado para el curso de React en CoderHouse por M.Cordoba
 
 ## Available Scripts
 
