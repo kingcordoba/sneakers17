@@ -1,6 +1,7 @@
 import React from 'react'
 import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink} from './NavbarElements';
 import Logo from '../../images/logo.svg';
+import CartWidget from './CartWidget';
 
 const Navbar = () => {
     return (
@@ -22,7 +23,9 @@ const Navbar = () => {
                     </NavLink>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/carrito">Carrito</NavBtnLink>
+                    <NavBtnLink to="/carrito">
+                        <CartWidget/>
+                    </NavBtnLink>
                 </NavBtn>
             </Nav>
         </>
@@ -30,3 +33,7 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+function ItemListContainer(){
+    alert("Working");
+};
