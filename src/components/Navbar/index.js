@@ -33,7 +33,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-function ItemListContainer(){
-    alert("Working");
-};
