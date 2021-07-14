@@ -1,11 +1,17 @@
 import React from 'react'
+import Contador from '../components/Navbar/ItemCount'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-const carrito = () => {
+function Cart () {
     return (
-        <div>
-            Contador aquí
-        </div>
+        <Router>
+            <Switch>
+                <Route path='/carrito' exact>
+                    <Contador/>
+                </Route>
+            </Switch>
+        </Router>        
     )
 }
 
-export default carrito
+export default Cart

@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Somos from './pages/nosotros';
 import Home from './pages/index';
-import carrito from './pages/carrito';
+import Cart from './pages/carrito';
 import ItemListContainer from './components/Navbar/ItemListContainer';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Home titulo='Bienvenido! :D Tarea2' /> 
         </Route>
         <Route path='/nosotros' exact component={Somos} />
-        <Route path='/carrito' exact component={carrito} />
+        <Route path='/carrito' exact component={Cart} />
       </Switch>
     </Router>
   );
