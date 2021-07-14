@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = () => {
+const Home = (props) => {
     return (
         <div style={{
             display: 'flex', 
@@ -8,7 +8,7 @@ const Home = () => {
             alignItems:'center',
             height: '90vh'
             }}>
-            <h1>Inicio</h1>
+            <h1>{props.titulo}</h1>
         </div>
     )
 }

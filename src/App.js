@@ -4,8 +4,8 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //import Home from './pages';
 import Somos from './pages/nosotros';
+import Home from './pages/index';
 import ItemListContainer from './components/Navbar/ItemListContainer';
-
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact>
-          <ItemListContainer />  
+          <Home titulo='Bienvenido! :D Tarea2' /> 
         </Route>
         <Route path='/nosotros' exact component={Somos} />
       </Switch>

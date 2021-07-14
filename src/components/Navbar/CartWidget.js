@@ -3,7 +3,7 @@ import Carrito from '../../images/carrito.svg';
 
 const CartWidget = () => {
     return (
-        <img src={Carrito} alt="cart" height="30"/>
+        <img src={Carrito} alt="cart" height="20"/>
     )
 }
 
