@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-//import Home from './pages';
 import Somos from './pages/nosotros';
 import Home from './pages/index';
+import carrito from './pages/carrito';
 import ItemListContainer from './components/Navbar/ItemListContainer';
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
           <Home titulo='Bienvenido! :D Tarea2' /> 
         </Route>
         <Route path='/nosotros' exact component={Somos} />
+        <Route path='/carrito' exact component={carrito} />
       </Switch>
     </Router>
   );
