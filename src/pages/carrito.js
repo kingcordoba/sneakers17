@@ -1,5 +1,5 @@
 import React from 'react'
-import Contador from '../components/Navbar/ItemCount'
+import Contador from '../components/ItemCount'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function Cart () {

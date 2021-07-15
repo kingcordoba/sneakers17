@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Somos from './pages/nosotros';
 import Home from './pages/index';
 import Cart from './pages/carrito';
-import ItemListContainer from './components/Navbar/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
