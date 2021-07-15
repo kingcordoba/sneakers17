@@ -6,5 +6,4 @@ const CartWidget = () => {
         <img src={Carrito} alt="cart" height="20"/>
     )
 }
-
 export default CartWidget

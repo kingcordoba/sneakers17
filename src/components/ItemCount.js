@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { FaBold } from 'react-icons/fa';
 import { Container, Segment, Card, Button, Icon } from 'semantic-ui-react';
 
 class Contador extends Component {
